@@ -5,7 +5,7 @@ export const Logo = () => {
   return (
     <>
     <Link href={'/'} className="text-black flex items-center">
-        <p className="font-poppins font-semibold text-[14px] leading-[21px]">MyFast<span className="text-green-500">X</span></p>
+        <p className="font-poppins font-semibold text-[14px] leading-[21px]">MyFast<span className="text-[#63B178]">X</span></p>
         <Image
         src={'https://myfastx.com/assets/logo-BHDObzAp.svg'}
         alt="logoImage"

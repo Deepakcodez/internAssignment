@@ -5,7 +5,7 @@ import { Menu } from "lucide-react"
 export const Navbar = () => {
   return (
     <>
-    <div className="flex justify-between items-center w-full py-5">
+    <div className="flex justify-between items-center w-full py-5 px-5">
       <div className="flex md:hidden"> <Menu /></div>
         <Logo/>
         <div className="flex gap-[.56rem] ">
