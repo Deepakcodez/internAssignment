@@ -28,7 +28,7 @@ export const HomeCard = () => {
   ];
   return (
     <>
-      <div className="grid grid-cols-2 lg:grid-cols-4  w-full gap-4">
+      <div className="grid grid-cols-2 lg:grid-cols-4  w-full gap-4 px-5 md:px-0">
         {data?.map((card, index) => (
           <Fragment key={index}>
             <div className="col-span-1  flex flex-col gap-1 bg-[#F2FAF5]  rounded-[13px]  font-poppins p-4 ">
